@@ -26,7 +26,7 @@ variable "subnet_bits" {
 variable "max_subnet_az" {
   type        = number
   description = "Maximum number of Subnets per Availability Zone"
-  default     = 3
+  default     = 2
 }
 
 variable "subnet_group" {
