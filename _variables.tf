@@ -20,7 +20,7 @@ variable "subnet" {
 variable "subnet_bits" {
   type        = number
   description = "Number Bits required for creating Subnets"
-  default     = 8
+  default     = 6
 }
 
 variable "max_subnet_az" {
