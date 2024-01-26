@@ -1,7 +1,7 @@
 variable "cidr_block" {
   type        = string
   description = "IPV4 range for VPC Creation"
-  default     = "10.120.0.0/21"
+  default     = "10.120.0.0/18"
 }
 
 variable "subnet" {
@@ -20,7 +20,7 @@ variable "subnet" {
 variable "subnet_bits" {
   type        = number
   description = "Number Bits required for creating Subnets"
-  default     = 6
+  default     = 11
 }
 
 variable "max_subnet_az" {
