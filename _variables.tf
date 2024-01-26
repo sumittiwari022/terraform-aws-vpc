@@ -1,7 +1,7 @@
 variable "cidr_block" {
   type        = string
   description = "IPV4 range for VPC Creation"
-  default     = "10.20.0.0/20"
+  default     = "10.120.0.0/21"
 }
 
 variable "subnet" {
